@@ -3,17 +3,16 @@
 
 ## __Table of contents__
 
-- [Description](#description-📝)
-- [Overview](#overview-📁)
-  - [User experience](#user-experience-👤)
-  - [Screenshot](#screenshot-📸)
-  - [Links](#links-🔗)
-- [My process](#my-process-💡)
-  - [Built with](#built-with-🔨)
-  - [Useful resources](#useful-resources-📚)
-  - [Continued development](#continued-development-🏗️) 
+- [Description 📝](#description-📝)
+- [Overview 📁](#overview-📁)
+  - [User experience 👤](#user-experience-👤)
+  - [Screenshot 📸](#screenshot-📸)
+  - [Links 🔗](#links-🔗)
+- [My process 💡](#my-process-💡)
+  - [Built with 🔨](#built-with-🔨)
+  - [Useful resources 📚](#useful-resources-📚)
 - [Author](#author-✏️)
-    - [Grade](#grade)
+    - [Grade 🗄️](#grade-)
 
 <br>
 <hr>
