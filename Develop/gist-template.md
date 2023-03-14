@@ -39,6 +39,7 @@ Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 The ` /^ ` anchor signifies a string that begins with the characters that follow it. The `/$` anchor signifies a string that ends with the characters that precede it. Just as with the `^` character, it can be preceded by an exact string or a range of possible matches.
 
 <br>
+<hr>
 
 ### Quantifiers
 
@@ -48,26 +49,54 @@ Next, we tackle quantifiers. Quantifiers set the limits of the string that your 
 
  The question mark (`?`) tells the parser that the preceding character is optional, but to be "greedy" and capture it if it's there. The length of the hexadecimal color code should be either `6` or `3`, excluding ‘#’ symbol.
 
-
-Next, inside the first group (first group of parentheses), we can have two different situations. The first is any lowercase letter between a and f or a number six times. The | tells us that we can also have three lowercase letters between a and f or numbers instead.
-
-Finally, we want the end of the string ($). We also use the case insensitive flag by adding an i at the end of our expression. This will allow us to match #ffffff as well as #FFFFFF.
-
-
-
 <br>
+<hr>
 
 ### Grouping Constructs
 
+/^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
+
+Grouping constructs have two primary categories: capturing and non-capturing. Capturing groups capture the matched character sequences for possible re-use (including a numbered backreference) and non-capturing groups do not. A grouping construct can be made non-capturing by adding the characters `?:` at the beginning of an expression inside the parentheses.
+
+It is important to note that capturing groups capture the matched character sequences for possible re-use (including a numbered backreference) while non-capturing groups do not. 
+
+This expression has one group consisting of `([a-f0-9]{6}|[a-f0-9]{3})` that is seperated by an OR Operator. Please see __The OR Operator__ below for further explanation.
+
+<br>
+<hr>
+
 ### Bracket Expressions
+
+Next, inside the first group (first group of parentheses), we can have two different situations. The first is any lowercase letter between a and f or a number six times. T.
+
+Finally, we want the end of the string ($). We also use the case insensitive flag by adding an i at the end of our expression. This will allow us to match #ffffff as well as #FFFFFF.
+
+<br>
+<hr>
 
 ### Character Classes
 
+<br>
+<hr>
+
 ### The OR Operator
+
+- /^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
+
+The `|` tells us that we can also have three lowercase letters between a and f or numbers instead
+
+<br>
+<hr>
 
 ### Flags
 
+<br>
+<hr>
+
 ### Character Escapes
+
+<br>
+<hr>
 
 ## Author
 
