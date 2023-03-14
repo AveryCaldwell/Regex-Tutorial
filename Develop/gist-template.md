@@ -79,6 +79,12 @@ Bracket expressions are anything inside a set of square brackets ( [ ] ) that re
 
 ### Character Classes
 
+/^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
+
+A character class in a regex defines a set of characters, any one of which can occur in an input string to fulfill a match.
+
+The bracket expressions above are considered character classes: [a-f0-9] and [a-f0-9] which searches for the same values. `a-f` searches for letters a-f and `0-9` searches for digits 0-9.
+
 <br>
 <hr>
 
