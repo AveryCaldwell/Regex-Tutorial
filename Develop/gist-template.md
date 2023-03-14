@@ -54,7 +54,7 @@ Next, we tackle quantifiers. Quantifiers set the limits of the string that your 
 
 ### Grouping Constructs
 
-/^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
+/^#?`([a-f0-9]{6}`|`[a-f0-9]{3})`$/
 
 Grouping constructs have two primary categories: capturing and non-capturing. Capturing groups capture the matched character sequences for possible re-use (including a numbered backreference) and non-capturing groups do not. A grouping construct can be made non-capturing by adding the characters `?:` at the beginning of an expression inside the parentheses.
 
@@ -67,7 +67,12 @@ This expression has one group consisting of `([a-f0-9]{6}|[a-f0-9]{3})` that is 
 
 ### Bracket Expressions
 
+/^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
 
+Bracket expressions are anything inside a set of square brackets ( [ ] ) that represent a range of characters that we want to match. In the Hex Code regex, parenthesese are used to define the bracket expressions. Here is a breakdown:
+
+- [a-f]—The string can contain any lowercase letter between a–f. Keep in mind that this looks for lowercase characters only.
+- [0-9]—The string can contain any number between 0–9 
 
 <br>
 <hr>
@@ -81,7 +86,7 @@ This expression has one group consisting of `([a-f0-9]{6}|[a-f0-9]{3})` that is 
 
  /^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
 
- There are two expresions seperated by an OR Operator ( `|` ): `[a-f0-9]{6}` and `[a-f0-9]{3}` . This means that our regex will match any of those two expresions. The `|` tells us that we can have 6 lowercase letters between a and f or numbers OR have three lowercase letters between a and f or numbers instead.
+ There are two expresions seperated by an OR Operator ( `|` ): `[a-f0-9]{6}` and `[a-f0-9]{3}` . This means that our regex will match any of those two expresions. The `|` tells us that we can have 6 characters OR have three characters instead.
 
 <br>
 <hr>
