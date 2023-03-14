@@ -67,9 +67,7 @@ This expression has one group consisting of `([a-f0-9]{6}|[a-f0-9]{3})` that is 
 
 ### Bracket Expressions
 
-Next, inside the first group (first group of parentheses), we can have two different situations. The first is any lowercase letter between a and f or a number six times. T.
 
-Finally, we want the end of the string ($). We also use the case insensitive flag by adding an i at the end of our expression. This will allow us to match #ffffff as well as #FFFFFF.
 
 <br>
 <hr>
@@ -81,9 +79,9 @@ Finally, we want the end of the string ($). We also use the case insensitive fla
 
 ### The OR Operator
 
-- /^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
+ /^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
 
-The `|` tells us that we can also have three lowercase letters between a and f or numbers instead
+ There are two expresions seperated by an OR Operator ( `|` ): `[a-f0-9]{6}` and `[a-f0-9]{3}` . This means that our regex will match any of those two expresions. The `|` tells us that we can have 6 lowercase letters between a and f or numbers OR have three lowercase letters between a and f or numbers instead.
 
 <br>
 <hr>
