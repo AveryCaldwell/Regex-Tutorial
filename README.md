@@ -11,6 +11,7 @@
 - [My process 💡](#my-process-💡)
   - [Built with 🔨](#built-with-🔨)
   - [Useful resources 📚](#useful-resources-📚)
+  - [Sources](#sources)
 - [Author](#author-✏️)
     - [Grade 🗄️](#grade-)
 
@@ -90,6 +91,14 @@ Github Repository:
 <br>
 <hr>
 <br>
+
+### __Sources__
+
+- Hex codes - [https://www.vectornator.io/blog/hex-code/]((https://www.vectornator.io/blog/hex-code/))
+
+<br>
+
+
 
 ## __Author ✏️__
   Avery Caldwell
