@@ -20,7 +20,6 @@ Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
 <br>
@@ -97,10 +96,6 @@ The bracket expressions above are considered character classes: [a-f0-9] and [a-
 <br>
 <hr>
 
-### Flags
-
-<br>
-<hr>
 
 ### Character Escapes
 
