@@ -97,11 +97,6 @@ The bracket expressions above are considered character classes: [a-f0-9] and [a-
 <hr>
 
 
-### Character Escapes
-
-<br>
-<hr>
-
 ## Author
 
 - Avery Caldwell: [GitHub](https://github.com/AveryCaldwell)
