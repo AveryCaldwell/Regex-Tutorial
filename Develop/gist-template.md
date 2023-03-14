@@ -1,16 +1,20 @@
-# 🧠 Explain Like I'm Five: Regex Tutorial 📑📌
+# 🧠 Explain Like I'm Five: Regex Tutorial 📌
 
 This Regex tutorial explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. When included in code or search algorithms, regex can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
 
-## Summary 📃
+<br>
 
+## Summary 📃
+<br>
 <!-- Briefly summarize the regex you will be describing and what you will explain.  -->
 
 This tutorial will break down the complexities of regex into simpler terms, hence, "Explain Like I'm Five." The Hex Code is a color code based on the Hexadecimal system. The word hexadecimal is composed of the terms Hexa and Decem. Hex color codes are code values that represent the color values from 0 to 255. The hexadecimal color definition is usually in the six-digit form, i.e., as a sequence of three hexadecimal numbers, each written with two digits, according to the scheme: #RRGGBB. 
 
-Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+    Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
-
+<br>
+<hr>
+<br>
 
 ## Table of Contents
 
@@ -20,7 +24,6 @@ Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Character Escapes](#character-escapes)
 
 <br>
 <hr>
